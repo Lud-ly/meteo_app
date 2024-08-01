@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center my-overlay">
+                <h1 id="ville">Ville</h1>
+                <i class="wi wi-day-sunny"></i>
+                <p>Température: <span id="temperature"></span>°C</p>
+                <p>Ressenti: <span id="ressenti"></span>°C</p>
+                <p>Conditions: <span id="conditions"></span></p>
+                <p>Humidité: <span id="humidite"></span>%</p>
+                <p>Vent: <span id="vent"></span> km/h</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+<script src="app.js"></script>
+<link rel="stylesheet" href="app.css">
+
+</html>

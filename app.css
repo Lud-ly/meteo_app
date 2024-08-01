@@ -1,0 +1,100 @@
+.clear {
+    background-image: url(./img/clear.jpg);
+}
+
+.clouds {
+    background-image: url(./img/clouds.jpg);
+}
+
+.rain {
+    background-image: url(./img/rain.jpg);
+}
+
+.snow {
+    background-image: url(./img/winter.jpg);
+}
+
+.fog {
+    background-image: url(./img/hilly.jpg);
+}
+
+.smoke {
+    background-image: url(./img/smoke.jpg);
+}
+
+.mist {
+    background-image: url(./img/fog.jpg);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    position: relative;
+}
+
+i.wi {
+    font-size: 3em;
+    line-height: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip {
+    top: -40px;
+    opacity: 1;
+}
+
+.my-overlay {
+    background: aliceblue;
+    opacity: 0.5;
+    color: black;
+    border-radius: 10px;
+}
+
+/* Map */
+
+#map {
+    height: 80vh;
+    width: 100%;
+}
+
+.weather-popup {
+    display: flex;
+    align-items: center;
+}
+
+.weather-popup i {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.wi {
+    font-size: 64px;
+}
